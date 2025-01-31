@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+header img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+nav ul li:hover {
+    color: #ff6347;
+}
+
+main {
+    padding: 30px;
+}
+
+#forefront_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#forefront_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#forefront_text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#forefront_text p {
+    font-size: 1.1rem;
+}
+
+#forefront_text button {
+    padding: 12px 24px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#forefront_text button:hover {
+    background-color: #e55347;
+}
+
+#form form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form input, #form select, #form button {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#form button {
+    background-color: #ff6347;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#form button:hover {
+    background-color: #e55347;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+footer nav ul li {
+    cursor: pointer;
+}
+
+footer nav ul li:hover {
+    color: #ff6347;
+}

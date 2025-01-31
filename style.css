@@ -1,0 +1,30 @@
+*
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    colour: #2F3C7E;
+    colour: #FBEAEB
+}
+h1{
+    text-align: center;
+}
+header
+{
+    display: grid;                                
+    grid-template-columns: repeat(3, 1fr);      
+    gap: 20px;
+    background-color: #2F3C7E;
+    color:#FBEAEB ;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+  }
+header ul li
+{   box-align: center;
+    margin-right: 50px;
+}
+button:hover
+{
+    color:blue;
+}
+
